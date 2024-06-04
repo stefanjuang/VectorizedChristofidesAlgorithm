@@ -20,13 +20,13 @@ The Vectorized Christofides Algorithm tackles this problem head-on. By leveragin
 ## Approach
 This program provides an efficient implementation of the Christofides algorithm to solve the Traveling Salesman Problem (TSP) using Python. It leverages vectorized operations for better performance and includes the following key steps:
 
-Merge Similar Nodes: Clusters similar nodes using DBSCAN to reduce the problem size, mapping original nodes to their clusters.
-Compute Distance Matrix: Generates a distance matrix adjusted for clusters with a lower jump cost between similar nodes.
-Minimum Spanning Tree (MST): Constructs an MST from the distance matrix.
-Odd Degree Vertices: Identifies vertices with odd degrees in the MST.
-Minimum Weight Matching: Finds the minimum weight matching for the subgraph of odd degree vertices.
-Eulerian Circuit: Forms an Eulerian circuit by combining the MST and the matching edges.
-Hamiltonian Path: Extracts a Hamiltonian path from the Eulerian circuit to form a TSP solution.
+- Merge Similar Nodes: Clusters similar nodes using DBSCAN to reduce the problem size, mapping original nodes to their clusters.
+- Compute Distance Matrix: Generates a distance matrix adjusted for clusters with a lower jump cost between similar nodes.
+- Minimum Spanning Tree (MST): Constructs an MST from the distance matrix.
+- Odd Degree Vertices: Identifies vertices with odd degrees in the MST.
+- Minimum Weight Matching: Finds the minimum weight matching for the subgraph of odd degree vertices.
+- Eulerian Circuit: Forms an Eulerian circuit by combining the MST and the matching edges.
+- Hamiltonian Path: Extracts a Hamiltonian path from the Eulerian circuit to form a TSP solution.
 
 ## Features
 
