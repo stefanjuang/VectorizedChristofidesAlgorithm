@@ -101,3 +101,17 @@ The Vectorized Christofides Algorithm revolutionizes the process of solving the 
 - Thanks to the developers of the foundational tools used in this project.
 
 Give a ⭐️ if you like this project!
+
+# Citation
+
+If you use the FastReverseBellman Algorithm in your research or project, please cite this repository as follows:
+
+```
+@misc{VectorizedChristofidesAlgorithm2024,
+  author = {Stefan Juang},
+  title = {VectorizedChristofidesAlgorithm: High Dimension Data TSP Search},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/stefanjuang/VectorizedChristofidesAlgorithm}},
+}
